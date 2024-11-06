@@ -1,4 +1,4 @@
 // src/pages/Contact.tsx
-const Contact = () => <div>Contact Us</div>;
+const Contact = () => <h2>Contact Us</h2>;
 
 export default Contact;

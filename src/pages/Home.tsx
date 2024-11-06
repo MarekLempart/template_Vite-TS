@@ -1,4 +1,4 @@
 // src/pages/Home.tsx
-const Home = () => <div>Welcome to the Home Page!</div>;
+const Home = () => <h2>Welcome to the Home Page!</h2>;
 
 export default Home;
