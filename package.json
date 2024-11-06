@@ -3,15 +3,27 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://MarekLempart.github.io/template_Vite-TS/",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarekLempart/template-vite-ts.git"
+  },
+  "keywords": [],
+  "author": "MarekLempart <eppum.ml@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarekLempart/template-vite-ts.git/issues"
+  },
   "dependencies": {
+    "axios": "^1.7.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0"
